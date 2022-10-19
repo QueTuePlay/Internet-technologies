@@ -1,9 +1,44 @@
+@font-face {
+	font-family: New_Zelek;
+	src:url('new_zelek.ttf');
+}
+
+header, main {
+	padding: 20px;
+}
+
 body {
-  font-family: "Arial";
+	margin: 0;
+  font-family: Arial;
+}
+
+h1 {
+	font-family: New_Zelek, Arial;
+}
+
+h2 {
+	color: #101075;
+}
+
+h3 {
+	color: #950A2A;
+}
+
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+footer {
+	padding: 20px;
+	margin-top: auto;
+	background: linear-gradient(0deg, #17171C, #030303);
 }
 
 footer p {
-	color: grey;
+	color: white;
 	font-size: 12px;
 	line-height: normal;
 }
