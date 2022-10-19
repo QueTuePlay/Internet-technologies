@@ -1,5 +1,5 @@
 footer p {
-	color: lightgrey;
+	color: grey;
 	font-size: 12px;
-	line-height: 6px;
+	line-height: normal;
 }
