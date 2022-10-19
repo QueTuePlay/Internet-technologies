@@ -1,7 +1,4 @@
-@font-face {
-	font-family: New_Zelek;
-	src:url('new_zelek.ttf');
-}
+@import url(https://allfont.ru/allfont.css?fonts=new_zelek);
 
 header, main {
 	padding: 20px;
@@ -13,7 +10,7 @@ body {
 }
 
 h1 {
-	font-family: New_Zelek, Arial;
+	font-family: 'New_Zelek', Arial;
 }
 
 h2 {
